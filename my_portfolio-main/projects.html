@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Pranay Bhargav - Full Stack AI Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo"><a href="index.html"><span class="logo-text">PB</span></a></div>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="experience.html" class="nav-link">Experience</a>
+                <a href="projects.html" class="nav-link active">Projects</a>
+                <a href="skills.html" class="nav-link">Skills</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-social">
+                <a href="https://github.com/pranaybhargav" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/pranay-bhargav" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:p60731866@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                <button class="resume-btn"><i class="fas fa-download"></i> Resume</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="projects-page">
+        <div class="container">
+            <div class="page-header">
+                <h1 class="page-title">Featured Projects</h1>
+                <p class="page-subtitle">Full-stack AI-powered applications built end to end</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-image"><i class="fas fa-file-alt"></i></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Smart Resume Analyzer</h3>
+                        <p class="project-description">
+                            An AI-driven platform that scores resumes against job descriptions to surface skill gaps and produce an actionable match score. The frontend is built in React.js; the backend runs on Java Spring Boot with Supabase for data persistence and AWS S3 for document storage. AI analysis is powered by the OpenAI API, providing deep language-level recommendations for resume optimization.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Java Spring Boot</span>
+                            <span class="tech-tag">OpenAI API</span>
+                            <span class="tech-tag">AWS S3</span>
+                            <span class="tech-tag">Supabase</span>
+                        </div>
+                        <div class="project-achievements">
+                            <span class="achievement">Resume Scoring</span>
+                            <span class="achievement">Skill Gap Analysis</span>
+                            <span class="achievement">AI-Powered Insights</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image"><i class="fas fa-chart-pie"></i></div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI-Powered Expense Tracker</h3>
+                        <p class="project-description">
+                            A full-stack expense tracking platform where users record, organize, and monitor spending through a responsive Next.js 15 / React 19 / TypeScript frontend. The backend uses Supabase for PostgreSQL data persistence and authentication. Integrated Groq AI (Llama 3.3 70B) to power a natural-language financial query interface — users can ask questions about their spending and receive personalized insights through an LLM-driven analytics layer.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">Supabase (PostgreSQL + Auth)</span>
+                            <span class="tech-tag">Groq AI (Llama 3.3 70B)</span>
+                        </div>
+                        <div class="project-achievements">
+                            <span class="achievement">Natural Language Queries</span>
+                            <span class="achievement">LLM Analytics Layer</span>
+                            <span class="achievement">Real-time Insights</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-text">PB</span>
+                        <h3>Pranay Bhargav</h3>
+                        <p>Full Stack AI Developer</p>
+                    </div>
+                    <p class="footer-description">Full Stack Developer with 5+ years of experience in enterprise backend systems, React/Next.js applications, and cloud-native AWS deployments.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/pranaybhargav" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/pranay-bhargav" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="mailto:p60731866@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="experience.html">Experience</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Tech Stack</h4>
+                    <div class="footer-tech">
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">Spring Boot</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">GraphQL</span>
+                        <span class="tech-tag">AWS</span>
+                        <span class="tech-tag">Docker</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
